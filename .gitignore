@@ -1,1 +1,39 @@
-/hl7-fuzz.zip
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Built go app
+/bin
+/pkg
+
+# Bootprint output
+/static/html/
+
+# Eclipse files
+.project
+.settings
+.DS_Store
+
+# VS Code files
+.vscode
+
+# Config files
+/config.env
+/config.secret
+/.env
+
+# Audit Logging
+/logs
+
+# Live deployment to Portainer (deprecated)
+/docker-compose.production.deploy-live.yml
+
+# Fuzz test generated files
